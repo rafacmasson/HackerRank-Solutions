@@ -14,10 +14,10 @@ if __name__ == '__main__':
     # Sorting the lists
     score_list.sort()
     records.sort()
-    
+
+    # Finding the second lowest score on the list    
     second_lowest = score_list[0]
 
-    # Finding the second lowest score on the list
     for i in score_list:
         if i > score_list[0]:
             second_lowest = i

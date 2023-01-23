@@ -6,9 +6,9 @@ if __name__ == '__main__':
     arr = list(arr)
     arr.sort(reverse = True)
 
+    # The runner-up score is the first number on the list smaller than the first one
     runner_up = 0
     
-    # The runner-up score is the first number on the list smaller than the first one
     for i in arr:
         if i < arr[0]:
             runner_up = i
